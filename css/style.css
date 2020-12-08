@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+}
+h1, h2, h3, h4{
+    margin: 0;
+}
+/*HEADER*/
+.header{
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.nav__link{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*MAIN*/
+.main{
+    max-width: 1200px;
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #beeee6;
+}
+/*FOOTER*/
+.footer{
+    max-width: 1200px;
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color: rgb(192, 247, 140);
+    text-align: center;
+}
+.copyright{
+    padding-top: 100px;
+}
